@@ -74,8 +74,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	ld "gopkg.in/launchdarkly/go-client.v4"
-	"gopkg.in/launchdarkly/go-client.v4/utils"
+	ld "github.com/drahflow/go-client"
+	"github.com/drahflow/go-client/utils"
 )
 
 const (

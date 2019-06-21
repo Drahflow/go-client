@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	ld "gopkg.in/launchdarkly/go-client.v4"
+	ld "github.com/drahflow/go-client"
 )
 
 // Test implementation of FeatureStoreCore

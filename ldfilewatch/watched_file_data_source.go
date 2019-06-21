@@ -12,7 +12,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	ld "gopkg.in/launchdarkly/go-client.v4"
+	ld "github.com/drahflow/go-client"
 )
 
 const retryDuration = time.Second

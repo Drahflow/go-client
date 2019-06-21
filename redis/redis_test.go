@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	r "github.com/garyburd/redigo/redis"
-	ld "gopkg.in/launchdarkly/go-client.v4"
-	ldtest "gopkg.in/launchdarkly/go-client.v4/shared_test"
-	"gopkg.in/launchdarkly/go-client.v4/utils"
+	ld "github.com/drahflow/go-client"
+	ldtest "github.com/drahflow/go-client/shared_test"
+	"github.com/drahflow/go-client/utils"
 )
 
 const redisURL = "redis://localhost:6379"

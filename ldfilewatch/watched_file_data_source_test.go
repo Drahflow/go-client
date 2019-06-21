@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ld "gopkg.in/launchdarkly/go-client.v4"
-	"gopkg.in/launchdarkly/go-client.v4/ldfiledata"
+	ld "github.com/drahflow/go-client"
+	"github.com/drahflow/go-client/ldfiledata"
 )
 
 func makeTempFile(t *testing.T, initialText string) string {

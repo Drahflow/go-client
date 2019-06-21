@@ -3,7 +3,7 @@ package utils
 import (
 	"sort"
 
-	ld "gopkg.in/launchdarkly/go-client.v4"
+	ld "github.com/drahflow/go-client"
 )
 
 func transformUnorderedDataToOrderedData(allData map[ld.VersionedDataKind]map[string]ld.VersionedData) []StoreCollection {

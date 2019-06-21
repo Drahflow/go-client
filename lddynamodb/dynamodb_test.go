@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/stretchr/testify/require"
-	ld "gopkg.in/launchdarkly/go-client.v4"
-	ldtest "gopkg.in/launchdarkly/go-client.v4/shared_test"
-	"gopkg.in/launchdarkly/go-client.v4/utils"
+	ld "github.com/drahflow/go-client"
+	ldtest "github.com/drahflow/go-client/shared_test"
+	"github.com/drahflow/go-client/utils"
 )
 
 const (
